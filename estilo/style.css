@@ -122,7 +122,6 @@ main  h2{
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor1), transparent );
 }
-
 div.video{
     background-color: #063d1e;
     margin: 0px -20px 30px -20px;
