@@ -7,18 +7,34 @@
     <title>Android</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
-<body>
+<body >
     <header>
         <h1>Curiosidades de Tecnologia</h1>
 
         <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar.</p>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#aside">Notícias</a>
-            <a href="#curiosidade">Curiosidades</a>
-            <a href="https://guilhermetrab.github.io/Portifolio-de-sites/">Fale Conosco</a>
+        <nav class="nav-bar">
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#aside">Notícias</a></li>
+                    <li class="nav-item"><a href="#curiosidade">Curiosidades</a></li>
+                    <li class="nav-item" ><a href="https://guilhermetrab.github.io/Portifolio-de-sites/" target="_blank">Fale Conosco</a></li>
+                </ul>
+            </div>
+            <div id="menu">
+                <i class="material-icons">menu</i>
+            </div>
         </nav>
+        <div id="menu-mobile">
+            <ul>
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#aside">Notícias</a></li>
+                <li class="nav-item"><a href="#curiosidade">Curiosidades</a></li>
+                <li class="nav-item"><a href="https://guilhermetrab.github.io/Portifolio-de-sites/">Fale Conosco</a></li>
+            </ul>
+        </div>
 
     </header>
     <main>
@@ -52,7 +68,7 @@
         <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
 
         <div id="sobre">
-            <div><iframe d="video" width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div id="video"><iframe class="video" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
 
         <h3 id="curiosidade">Quer aprender mais?</h3>

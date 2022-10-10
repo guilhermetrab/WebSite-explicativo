@@ -59,17 +59,30 @@ header > p{
 
     
 }
-
-nav{
-    padding: 5px;
-    padding-bottom: 10px ;
+.nav-bar{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 10px;
+}
+.nav-list{
+    display: flex;
     align-items: center;
 }
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
 
- nav > a {
+#menu{
+    cursor: pointer;
+    display: none;
+}
+#menu-mobile{
+    display: none;
+}
+
+ nav.nav-bar > div.nav-list >ul >li >a {
     padding: 10px;
     text-decoration: none;
     color: aliceblue;
@@ -79,7 +92,7 @@ nav{
     
 }
 
-nav > a:hover {
+nav.nav-bar > div.nav-list > ul > li a:hover {
     background-color: var(--cor2);
     color: var(--cor5);
 }
@@ -122,16 +135,25 @@ main  h2{
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor1), transparent );
 }
-div{
+
+.video{
+    width: 560px;
+    height:315px;
+}
+
+div#video{
     height: 315px;
     width: 560px;
     margin: auto;
 }
 div#sobre{
     background-color: #063d1e;
-    padding: 40px;
+    padding: 30px;
+    margin: auto;
     margin-bottom: 29px;
     border-radius: 10px;
+    width: 560px;
+
 }
 h3{
     background-color: #40ac70;
