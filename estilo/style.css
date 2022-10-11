@@ -78,9 +78,7 @@ header > p{
     cursor: pointer;
     display: none;
 }
-#menu-mobile{
-    display: none;
-}
+
 
  nav.nav-bar > div.nav-list >ul >li >a {
     padding: 10px;
@@ -211,3 +209,4 @@ footer{
     padding: 10px;
     
 }
+
